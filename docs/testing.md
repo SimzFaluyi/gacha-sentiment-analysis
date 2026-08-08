@@ -57,8 +57,8 @@ without the required institutional ethical approval.
 
 Therefore:
 
-accuracy is not reported as an empirical finding;
-precision is not reported as an empirical finding;
-recall is not reported as an empirical finding;
-macro-F1 is not reported as an empirical finding; and
-no model is claimed to be empirically superior.
+- accuracy is not reported as an empirical finding;
+- precision is not reported as an empirical finding;
+- recall is not reported as an empirical finding;
+- macro-F1 is not reported as an empirical finding; and
+- no model is claimed to be empirically superior.
