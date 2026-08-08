@@ -3,7 +3,7 @@
 
 The proposed computational workflow is:
 
-```text
+
 ┌──────────────────────────┐
 │     Proposed Data Source │
 │          Reddit          │
