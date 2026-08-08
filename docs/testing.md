@@ -41,3 +41,24 @@ From the repository root:
 
 ```bash
 pytest
+
+---
+## Expected Outcome
+
+All automated tests should pass after the project dependencies have
+been installed correctly.
+
+## Empirical Evaluation
+
+The repository does not contain empirical model-performance results.
+
+This is because the planned Reddit research dataset was not collected
+without the required institutional ethical approval.
+
+Therefore:
+
+accuracy is not reported as an empirical finding;
+precision is not reported as an empirical finding;
+recall is not reported as an empirical finding;
+macro-F1 is not reported as an empirical finding; and
+no model is claimed to be empirically superior.
