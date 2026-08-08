@@ -41,7 +41,7 @@ From the repository root:
 
 ```bash
 pytest
-
+```
 ---
 ## Expected Outcome
 
