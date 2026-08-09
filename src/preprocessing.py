@@ -211,38 +211,3 @@ def filter_by_keywords(
     )
 
     return dataframe.loc[mask].reset_index(drop=True)
-
-def preprocess_text(text):
-    """
-    Basic text preprocessing for sentiment analysis.
-
-    Parameters
-    ----------
-    text : str
-        Raw text.
-
-    Returns
-    -------
-    str
-        Cleaned text.
-    """
-
-    if not isinstance(text, str):
-        return ""
-
-    # Convert to lowercase
-    text = text.lower()
-
-    # Remove URLs
-    text = re.sub(r"https?://\S+|www\.\S+", "", text)
-
-    # Remove Reddit-style usernames
-    text = re.sub(r"@\w+", "", text)
-
-    # Remove excessive whitespace
-    text = re.sub(r"\s+", " ", text)
-
-    # Remove leading/trailing whitespace
-    text = text.strip()
-
-    return text
