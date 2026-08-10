@@ -282,19 +282,12 @@ gacha-sentiment-analysis/
 │   └── sample_data.csv
 │
 ├── docs/
-│   ├── methodology.md
-│   ├── data_collection_protocol.md
-│   ├── annotation_guidelines.md
-│   └── testing.md
-│
-├── outputs/
-│   ├── figures/
-│   └── tables/
-│
-└── figures/
-    └── research_pipeline.md
-```
+    ├── methodology.md
+    ├── data_collection_protocol.md
+    ├── annotation_guidelines.md
+    └── testing.md
 
+```
 ---
 
 ## 12. Installation
